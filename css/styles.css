@@ -19,3 +19,14 @@ body {
 .no-reports {
     display: none;
 }
+
+/*rounded rect logo similar to app icon*/
+.logo {
+-moz-border-radius: 5px;
+border-radius: 5px;
+height: 15px;
+width: 15px;
+
+vertical-align: middle;
+	
+}

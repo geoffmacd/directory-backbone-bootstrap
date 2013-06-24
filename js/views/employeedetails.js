@@ -9,7 +9,7 @@ directory.EmployeeView = Backbone.View.extend({
                     $('.no-reports').show();
             }
         });
-        $('#reports', this.el).append(new directory.EmployeeListView({model:this.model.reports}).render().el);
+        //$('#reports', this.el).append(new directory.EmployeeListView({model:this.model.reports}).render().el);
         return this;
     }
 });
